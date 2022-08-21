@@ -1,8 +1,12 @@
 import React from 'react'
+import NotFound from '../../images/notfound.png'
+import "./PageNotFound.scss"
 
 const PageNotFound = () => {
   return (
-    <div>PageNotFound</div>
+    <div className="icon">
+      <img src={NotFound} alt="" />
+    </div>
   )
 }
 
